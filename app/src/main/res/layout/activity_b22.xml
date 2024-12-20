@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".b22">
+
+    <ImageView
+        android:layout_width="409dp"
+        android:layout_height="218dp"
+        android:background="@drawable/tim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:text="Tim futsal **MI 22 FC** berhasil meraih pencapaian gemilang dalam kejuaraan futsal tingkat fakultas Universitas Syiah Kuala. Dengan kerja sama solid, strategi matang, dan semangat juang tinggi, mereka sukses melewati babak penyisihan melawan tim-tim kuat. Di semifinal, mereka memenangkan adu penalti setelah bermain imbang, sementara di final, mereka tetap tampil tangguh meski di bawah tekanan. Prestasi ini semakin istimewa dengan diraihnya gelar **Top Scorer** oleh salah satu pemain dan penghargaan **Tim Fair Play** atas sportivitas mereka. Keberhasilan MI 22 FC menjadi kebanggaan bagi Manajemen Informatika sekaligus inspirasi untuk terus berprestasi di bidang akademik dan non-akademik."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bttn3"
+        android:layout_width="98dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:text="Return"
+        android:textColor="@color/maroon"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bttn2"
+        android:layout_width="98dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:text="HOME"
+        android:textColor="@color/maroon"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
