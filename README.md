@@ -1,19 +1,11 @@
-# Futsal-Fantasy-App
+# MI 22 FC App
 
 Futsal Team Application
 Overview
-The Futsal Team Application is a mobile app developed using Android Studio to manage and organize futsal teams and related activities. 
+Aplikasi ini dibuat untuk memenuhi Ujian Akhir Semester dari Mata Kuliah Pemrograman Mobile 
 
-Follow these steps to install and run the project:
+credit by:
+Muhammad Faizal Mahdi (2208001010027)
+M.Sulthan Syanfadhillah (2208001010009)
 
-1. Clone the GitHub repository:
 
-   ```bash
-   [git clone https://github.com/Aqilzderp/your-repository.git](https://github.com/Aqilzderp/Futsal-Fantasy-App)
-
-2. Link of the GitHub source code:
-   https://github.com/Aqilzderp/Futsal-Fantasy-App
-
-3. Username and Password for database:
-   Username: aqil03@live.com
-   Password: hoho0303
