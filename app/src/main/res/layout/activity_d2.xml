@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back4"
+    android:layout_height="match_parent"
+    tools:context=".d2">
+
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/tim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="ABOUT TEAM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="244dp"
+        android:src="@drawable/mi22logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:text="Tim futsal MI 22 FC, dibentuk pada tahun 2022 oleh mahasiswa Manajemen Informatika angkatan 2022 Universitas Syiah Kuala, telah menanamkan nilai kekompakan, kerja sama, dan dedikasi sejak awal. Meskipun tergolong baru, tim ini berkembang pesat melalui latihan intensif dan strategi yang solid, menjadikannya salah satu tim yang tangguh dan disegani di tingkat fakultas.\n\nDengan mengedepankan sinergi dan sportivitas, MI 22 FC berhasil membangun reputasi positif serta menjadi simbol kebersamaan yang menginspirasi mahasiswa lain untuk terus berprestasi.
+
+"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/white"
+        android:text="Next Page"
+        android:textColor="@color/maroon"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bttn4"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/white"
+        android:text="HOME"
+        android:textColor="@color/maroon"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
